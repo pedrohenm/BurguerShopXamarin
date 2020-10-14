@@ -123,7 +123,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1534" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -132,5 +132,38 @@
       <Project>{4EE7E6FD-FBA0-479D-B695-8EC189BF3CDD}</Project>
       <Name>BurguerShopXamarin</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bbq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\chicken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\classic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\meat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\shark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\user.png" />
   </ItemGroup>
 </Project>

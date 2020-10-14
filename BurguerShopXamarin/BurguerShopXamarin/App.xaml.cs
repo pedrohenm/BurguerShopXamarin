@@ -1,7 +1,9 @@
-﻿using System;
+﻿using BurguerShopXamarin.Views;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
+
+[assembly: ExportFont("BebasNeue.ttf", Alias = "ThemeFont")]
+[assembly: ExportFont("Roboto.ttf", Alias = "LightFont")]
 namespace BurguerShopXamarin
 {
     public partial class App : Application
@@ -10,7 +12,7 @@ namespace BurguerShopXamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LandingPage());
         }
 
         protected override void OnStart()
